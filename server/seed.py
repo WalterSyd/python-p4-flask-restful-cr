@@ -10,6 +10,7 @@ with app.app_context():
     fake = Faker()
 
     Newsletter.query.delete()
+    
 
     newsletters = []
     for i in range(50):
